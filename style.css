@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width:1140px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin:auto;
+    background-image:url(../img/bg-2.png);
+}
+
+/*Navegacion*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:auto;
+    background-color:orangered;
+    text-transform: uppercase;
+    box-sizing: border-box;
+  }
+  
+  li {
+    float: left;
+    
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+   
+  }
+
+  li a:hover {
+    background-color:orange;
+  }
+
+/*Seccion uno*/
+
+.general {
+    clear:both;
+}
+
+.sec-uno {
+    box-sizing: border-box;
+    width:800px;
+    height:auto;
+    background-color:white;
+    float:left;
+    margin-right:15px;
+    margin-top:20px;
+    overflow: hidden;
+}
+
+.cel-uno, .cel-dos, .cel-tres, .cel-cuatro, .cel-cinco, .cel-seis {
+    margin:10px;
+    box-sizing: border-box;
+    width:380px;
+    height:Auto;
+    float:left;
+}
+
+article img {
+    width:100%;
+}
+
+a.button:link, a.button:visited {
+    font-size:15px;
+    color:white;
+    background-color:orangered;
+    display:inline-block; 
+    padding:10px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/*Seccion Aside*/
+
+.sec-dos, .sec-tres{
+    width:320px;
+    height:auto;
+    float:left;
+}
+
+h2, h2 {
+    background-color: white;
+    width:100%;
+    padding:5px;
+    box-sizing: border-box;
+    display:inline-block; 
+    margin-bottom:10px;
+}
+
+.tutoriales{
+    background-color: white;
+    width:100%;
+    padding:10px;
+    box-sizing: border-box;
+    overflow: auto;
+    margin-bottom:5px;
+}
+
+.tutoriales img {
+    width:40%;
+    float:left;
+    padding-right:15px;
+}
+
+.add {
+    background-color: white;
+    width:100%;
+    height:auto;
+}
+
+.centrado{
+    text-align: center;
+}
+
+.add img {
+    width:100%;
+    padding:5px;
+    box-sizing: border-box;
+}
+
+/*Footer*/
+
+footer {
+    clear:both;
+}

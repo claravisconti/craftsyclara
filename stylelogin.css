@@ -1,0 +1,95 @@
+body {
+    width:1140px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin:auto;
+    background-image:url(../img/bg-2.png);
+}
+
+/*Navegacion*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:auto;
+    background-color:orangered;
+    text-transform: uppercase;
+  }
+  
+  li {
+    float: left;
+    
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+   
+  }
+
+  li a:hover {
+    background-color:orange;
+  }
+
+  /*General*/
+
+.general {
+    clear:both;
+    box-sizing: border-box;
+    width:100%;
+    height:auto;
+    background-color:white;
+    margin-top:15px;
+    overflow: hidden;
+    padding:20px;
+}
+
+h1 {
+    color:white;
+    text-align: center;
+}
+
+.register {
+    background-color: orange;
+    width:350px;
+    height:auto;
+    margin:auto;
+    padding:20px;
+    box-sizing: border-box;
+    font-size:15px;
+    border-radius: 10px;
+}
+
+input[type=text],input[type=email],input[type=password] {
+    width:100%;
+    height:25px;
+    border-radius: 4px;
+  }
+
+input[type=submit],input[type=reset] {
+    font-display:inline-block;
+    margin-top:10px;
+    padding: 10px;
+    text-decoration: none;
+    border:none;
+    border-radius: 4px;
+    background-color: white;
+        
+}
+
+.botonera{
+    text-align:center;
+    border: none;
+}
+
+input[type=text]:focus, input[type=email]:focus, input[type=password]:focus {
+    background-color: lightgrey;
+}
+
+.recordarme {
+    margin-top:5px;
+    text-align: right;
+}

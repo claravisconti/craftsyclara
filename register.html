@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/styleregister.css">
+    <title>Craftsy - Register</title>
+</head>
+<body>
+
+    <nav>
+
+        <ul>
+         <li><a href="index.html"><img src="../img/logo.png"></a></li>
+         <li><a href="index.html">Smartphones</a></li>
+         <li><a href="#news">Tablets</a></li>
+         <li><a href="#contact">Computadoras</a></li>
+         <li style="float:right"><a href="login.html">Login</a></li>
+         <li style="float:right"><a href="register.html">Registro</a></li>
+       </ul>
+       </nav>
+
+    <section class="general">
+
+        <div class="register">
+          
+                <form action="/action_page.php" target="_blank" method="post"> 
+                    <h1>Registrarse</h1>
+                        <label for="name"><p>Nombre</p></label>
+                        <input class="hola" type="text" id="name" name="name" required>
+                        
+                        <label for="email"><p>E-mail</p></label>
+                        <input type="email" id="email" name="email" required>
+                       
+                        <label for="password"><p>Contraseña</p></label>
+                        <input type="password" id="password" name="password"required>
+                       
+                        <label for="country"><p>Pais de nacimiento</p></label>
+                            <select id="country" name="country" required>
+                            <option value="au">Por favor elija uno</option>
+                            <option value="au">Australia</option>
+                            <option value="ca">Canada</option>
+                            <option value="usa">USA</option>
+                            </select>
+
+                        <p>Genero</p>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                        <input type="radio" id="desconocido" name="gender" value="desconocido">
+                        <label for="desconocido">Prefiero no decirlo</label>
+                        
+                        <p>Hobbies</p>
+                        <input type="checkbox" id="checkboxuno" name="checkboxuno" value="hobbieuno">
+                        <label for="checkboxuno">Checkbox</label>
+                        <input type="checkbox" id="checkboxuno" name="checkboxuno" value="hobbieuno">
+                        <label for="checkboxuno">Checkbox</label>
+                        <input type="checkbox" id="checkboxuno" name="checkboxuno" value="hobbieuno">
+                        <label for="checkboxuno">Checkbox</label>
+                        
+                        <label><p>Dejanos tus comentarios</p></label>
+                        <textarea name="message" rows="10" cols="30"></textarea><br>
+                       
+                        <input type="checkbox" id="legal" name="legal" value="legal">
+                        <label for="legal">Terminos y condiciones</label>
+
+                        <div class="botonera">
+                        <input class="sub" type="submit" value="Registrarme">
+                        <input type="reset" value="Cancelar">
+                        </div>                        
+                          
+                      </form>
+
+        </div>
+    
+    </section>
+   
+</body>
+</html>
